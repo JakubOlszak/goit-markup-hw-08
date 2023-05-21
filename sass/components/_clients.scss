@@ -38,3 +38,31 @@
     fill: $primaryColor;
   }
 }
+
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
+  .clients__list-item {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+}
+
+/* ---------- END RESPONSIVE TABLET ---------- */
+
+/* ---------- RESPONSIVE DESKTOP ---------- */
+
+@media screen and (min-width: $breakpointDesktopStart) {
+  .clients {
+    padding-top: 94px;
+  }
+
+  .clients__list {
+    flex-wrap: nowrap;
+  }
+
+  .clients__list-item {
+    flex-basis: auto;
+  }
+}
+
+/* ---------- END RESPONSIVE DESKTOP ---------- */

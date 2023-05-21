@@ -31,3 +31,35 @@
     color: $tertiaryColorGrey;
   }
 }
+
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
+  .advantages__title {
+    text-align: left;
+  }
+
+  .advantages__list-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+/* ---------- END RESPONSIVE TABLET ---------- */
+
+/* ---------- RESPONSIVE DESKTOP ---------- */
+
+@media screen and (min-width: $breakpointDesktopStart) {
+  .advantages {
+    padding: 94px 0;
+  }
+
+  .advantages__list {
+    flex-wrap: nowrap;
+  }
+
+  .advantages__title {
+    text-align: left;
+  }
+}
+/* ---------- END RESPONSIVE DESKTOP ---------- */
+ 

@@ -56,3 +56,31 @@
     cursor: pointer;
   }
 }
+
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
+  .team__list-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+/* ---------- END RESPONSIVE TABLET ---------- */
+
+/* ---------- RESPONSIVE DESKTOP ---------- */
+
+@media screen and (min-width: $breakpointDesktopStart) {
+  .team {
+    padding: 94px 0;
+  }
+
+  .team__list {
+    flex-wrap: nowrap;
+  }
+
+  .team__description-text {
+    margin-bottom: 30px;
+  }
+}
+
+/* ---------- END RESPONSIVE DESKTOP ---------- */
