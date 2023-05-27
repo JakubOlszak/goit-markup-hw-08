@@ -1163,7 +1163,7 @@ img {
 }
 .modal__form-btn {
   padding: 10px 76px;
-  margin: 30px auto;
+  margin: 0px;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1195,6 +1195,6 @@ img {
     font-size: 14px;
   }
   .modal__form-btn {
-    margin: 30px 120px;
+    margin: 20px auto 0;
   }
 } /*# sourceMappingURL=main.min.css.map */
